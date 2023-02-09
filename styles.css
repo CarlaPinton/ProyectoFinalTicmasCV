@@ -9,11 +9,14 @@ body{
     font-size: 15px;
 	line-height: 20px;
 }
-.hero{
-    background-color: #8d6f8d;
-    padding: 10%;
-   
-}
+
+#fotoperfil img{
+    border-radius: 50%;
+    width: 200px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: crimson;
+    outline: 5px solid black;
 
 h1{
     color: white;
