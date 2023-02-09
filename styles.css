@@ -10,14 +10,6 @@ body{
 	line-height: 20px;
 }
 
-#fotoperfil img{
-    border-radius: 50%;
-    width: 200px;
-    border-width: 30px;
-    border-style: solid;
-    border-color: crimson;
-    outline: 5px solid black;
-
 h1{
     color: white;
     text-transform: uppercase;
@@ -25,6 +17,21 @@ h1{
     letter-spacing: 1px;
     padding:10px;
     padding-top:30px
+    
+}
+      
+#fotoperfil img{
+    border-radius: 50%;
+    width: 200px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: crimson;
+    outline: 5px solid black;
+    
+}
+
+.main_container{
+	background: white;
 }
 
 .main_titles{
