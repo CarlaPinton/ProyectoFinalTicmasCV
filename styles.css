@@ -9,3 +9,24 @@ body{
     font-size: 15px;
 	line-height: 20px;
 }
+.hero{
+    background-color: #8d6f8d;
+    padding: 10%;
+   
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    background-color: crimson;
+    letter-spacing: 1px;
+    padding:10px;
+    padding-top:30px
+}
+
+.main_titles{
+    padding:10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
