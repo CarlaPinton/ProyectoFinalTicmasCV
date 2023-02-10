@@ -61,19 +61,20 @@ body{
     background-color: rgb(170, 15, 46);
 }
 
-dt, dd {
-    border-bottom: 1px solid crimson;
-}
-
 dl {
     display: flex;
     flex-wrap: wrap;
+}
+
+dt {
+    font-weight: bold;  
 }
 
 dt, dd { 
     flex-basis: 40%;
     margin: 0;
     line-height: 1.5em;
+    border-bottom: 1px solid crimson;
 }
 
 /* ---------------- ASIDE ---------------- */
