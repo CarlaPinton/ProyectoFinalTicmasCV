@@ -73,6 +73,7 @@ dl {
 dt, dd { 
     flex-basis: 40%;
     margin: 0;
+    line-height: 1.5em;
 }
 
 /* ---------------- ASIDE ---------------- */
