@@ -70,7 +70,7 @@ dt {
 }
 
 dt, dd { 
-    flex-basis: 40%;
+    flex-basis: 50%;
     margin: 0;
     line-height: 1.5em;
     border-bottom: 1px solid crimson;
