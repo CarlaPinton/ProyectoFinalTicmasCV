@@ -8,7 +8,7 @@
 
 .main_container {
     display: flex;
-    width: 700px;
+    width: 100%;
     background: white;
 }
 
@@ -23,7 +23,16 @@ body{
 #hero {
     background-color: crimson;
     text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    height: 150px
+    
 }
+
 #hero h1 {
     color: white;
     text-transform: uppercase;
@@ -39,9 +48,13 @@ body{
 }
 
 #fotoperfil {
-height: 30%;
-}      
-
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+}
 #fotoperfil img{
     border-radius: 50%;
     width: 200px;
@@ -94,6 +107,12 @@ aside {
     width: 40%;
 }
 
+aside #div_vacio {
+    background-color: crimson;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px
+}
 aside * {
     color: whitesmoke;
 }
