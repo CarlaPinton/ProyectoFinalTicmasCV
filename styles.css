@@ -3,31 +3,40 @@
   *{
     font-family: 'Mulish', sans-serif;
 }
+
 body{
     
     background-color: rgb(255, 210, 216);
     font-size: 15px;
 	line-height: 20px;
+    padding: 40px 50px 50px;
 }
 
-h1{
+#hero {
+    background-color: crimson;
+}
+#hero h1 {
     color: white;
     text-transform: uppercase;
-    background-color: crimson;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     padding:10px;
     padding-top:30px
-    
+}
+#hero h2 {
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px;
+    padding-top:15px;
 }
       
 #fotoperfil img{
     border-radius: 50%;
     width: 200px;
-    border-width: 30px;
+    border-width: 10px;
     border-style: solid;
     border-color: crimson;
-    outline: 5px solid black;
-    
+    outline: 1px solid whitesmoke;
+    margin: 20px 15px; 
 }
 
 .main_container{
@@ -35,8 +44,24 @@ h1{
 }
 
 .main_titles{
+    color: whitesmoke;
     padding:10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
+    background-color: rgb(170, 15, 46);
 }
 
+
+/* ---------------- ASIDE ---------------- */
+
+aside {
+    background-color: #732634;
+}
+aside * {
+    color: whitesmoke;
+}
+aside h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 3px solid rgb(255, 210, 216);
+}
