@@ -10,7 +10,6 @@
     display: flex;
     width: 1200px;
     background: white;
-    flex-direction: row-reverse;
 }
 
 body{
@@ -23,6 +22,7 @@ body{
 
 #hero {
     background-color: crimson;
+    text-align: center;
 }
 #hero h1 {
     color: white;
@@ -37,7 +37,11 @@ body{
     padding: 5px;
     padding-top:15px;
 }
-      
+
+#fotoperfil {
+height: 30%;
+}      
+
 #fotoperfil img{
     border-radius: 50%;
     width: 200px;
