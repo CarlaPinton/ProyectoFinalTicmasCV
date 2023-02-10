@@ -9,19 +9,18 @@
 .main_container {
     display: flex;
     width: 100%;
-    background: white;
+    background: #fffafc;
 }
 
 body{
-    
-    background-color: rgb(255, 210, 216);
-    font-size: 15px;
+
+    background-color: #8F797E; 
 	line-height: 20px;
     padding: 40px 50px 50px;
 }
 
 #hero {
-    background-color: crimson;
+    background-color: #FFC2B5;
     text-align: center;
     display: flex;
     flex-direction: row-reverse;
@@ -30,18 +29,17 @@ body{
     margin-bottom: 100px;
     margin-left: 150px;
     height: 150px
-    
 }
 
 #hero h1 {
-    color: white;
+    color: #646C8F;
     text-transform: uppercase;
     letter-spacing: 5px;
     padding:10px;
     padding-top:30px
 }
 #hero h2 {
-    color: white;
+    color: #8F797E;
     letter-spacing: 2px;
     padding: 5px;
     padding-top:15px;
@@ -55,18 +53,22 @@ body{
     left: 10px;
     top: 80px;
 }
+
 #fotoperfil img{
     border-radius: 50%;
     width: 200px;
     border-width: 10px;
     border-style: solid;
-    border-color: crimson;
-    outline: 1px solid whitesmoke;
+    border-color: #FFC2B5;
+    outline: 1px solid #8F797E;
     margin: 20px 15px; 
 }
 
-#sobremi {
-    background-color: aqua ;
+#sobremi p {
+    background-color: #F2CED8;
+    color: #3b3134 ;
+    font-weight: bold ;
+    width: 98%;
 }
 
 .main_titles{
@@ -74,7 +76,7 @@ body{
     padding:10px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background-color: rgb(170, 15, 46);
+    background-color: #615054;
 }
 
 .right_titles {
@@ -97,18 +99,18 @@ dt, dd {
     flex-basis: 50%;
     margin: 0;
     line-height: 1.5em;
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid #504145;
 }
 
 /* ---------------- ASIDE ---------------- */
 
 aside {
-    background-color: #732634;
-    width: 40%;
+    background-color: #646C8F;
+    width: 50%;
 }
 
 aside #div_vacio {
-    background-color: crimson;
+    background-color: #FFC2B5;
     margin-top: 100px;
     margin-bottom: 100px;
     height: 150px
@@ -119,5 +121,5 @@ aside * {
 aside h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
-    border-bottom: 3px solid rgb(255, 210, 216);
+    border-bottom: 1px solid rgb(255, 210, 216);
 }
