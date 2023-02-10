@@ -4,6 +4,17 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/*---------------LAYOUT--------------*/
+
+.main_container {
+    display: flex;
+    width: 1200px;
+    background: white;
+    flex-direction: row-reverse;
+    float: left;
+}
+
+
 body{
     
     background-color: rgb(255, 210, 216);
@@ -37,10 +48,11 @@ body{
     border-color: crimson;
     outline: 1px solid whitesmoke;
     margin: 20px 15px; 
+    text-align: ;
 }
 
-.main_container{
-	background: white;
+#sobremi {
+    background-color: aqua ;
 }
 
 .main_titles{
@@ -56,7 +68,10 @@ body{
 
 aside {
     background-color: #732634;
+    width: 30%;
+    float: right;
 }
+
 aside * {
     color: whitesmoke;
 }
@@ -64,4 +79,20 @@ aside h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
     border-bottom: 3px solid rgb(255, 210, 216);
+}
+
+dt {
+    width: 20%;
+    float: left;
+    border-bottom: double whitesmoke;
+}
+
+dd {
+    width: 10%;
+    float: left;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
 }
