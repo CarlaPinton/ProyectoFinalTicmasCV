@@ -8,7 +8,7 @@
 
 .main_container {
     display: flex;
-    width: 1200px;
+    width: 700px;
     background: white;
 }
 
@@ -64,6 +64,13 @@ height: 30%;
     background-color: rgb(170, 15, 46);
 }
 
+.right_titles {
+    color: whitesmoke;
+    padding:10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
 dl {
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +92,6 @@ dt, dd {
 aside {
     background-color: #732634;
     width: 40%;
-    float: right;
 }
 
 aside * {
