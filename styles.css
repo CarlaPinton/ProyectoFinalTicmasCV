@@ -80,19 +80,3 @@ aside h3 {
     letter-spacing: 3px;
     border-bottom: 3px solid rgb(255, 210, 216);
 }
-
-dt {
-    width: 20%;
-    float: left;
-    border-bottom: double whitesmoke;
-}
-
-dd {
-    width: 10%;
-    float: left;
-    margin: 0;
-}
-
-.clear {
-    clear: both;
-}
