@@ -12,6 +12,10 @@
     background: #fffafc;
 }
 
+main {
+    width: 115%;
+}
+
 body{
 
     background-color: #8F797E; 
@@ -77,6 +81,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     background-color: #615054;
+    margin-right: 16px;
 }
 
 .right_titles {
@@ -89,6 +94,7 @@ body{
 dl {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 16px
 }
 
 dt {
