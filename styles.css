@@ -13,7 +13,8 @@
 }
 
 main {
-    width: 115%;
+    width: 70%;
+    margin-left: 10px;
 }
 
 body{
@@ -31,7 +32,7 @@ body{
     justify-content: space-evenly;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 150px;
+    margin-left: 190px;
     height: 150px
 }
 
@@ -68,11 +69,14 @@ body{
     margin: 20px 15px; 
 }
 
-#sobremi p {
+.sobremi {
+    margin-right: 10px;
+}
+
+.sobremi p {
     background-color: #F2CED8;
     color: #3b3134 ;
     font-weight: bold ;
-    width: 98%;
 }
 
 .main_titles{
@@ -81,7 +85,6 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     background-color: #615054;
-    margin-right: 16px;
 }
 
 .right_titles {
@@ -91,10 +94,17 @@ body{
     letter-spacing: 5px;
 }
 
+.subs {
+    color:#504145;
+    padding: 3px;
+    letter-spacing: 2px;
+    border-bottom: darkviolet;
+    border-style: double;
+}
+
 dl {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 16px
 }
 
 dt {
@@ -108,11 +118,15 @@ dt, dd {
     border-bottom: 1px solid #504145;
 }
 
+ul {
+
+}
+
 /* ---------------- ASIDE ---------------- */
 
 aside {
     background-color: #646C8F;
-    width: 50%;
+    width: 30%;
 }
 
 aside #div_vacio {
