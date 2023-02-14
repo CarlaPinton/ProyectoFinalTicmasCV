@@ -81,6 +81,7 @@ body{
     font-weight: bold ;
     line-height: 2em;
     padding: 8px;
+    text-align: justify;
 }
 
 .main_titles{
@@ -146,6 +147,7 @@ h4 {
 
 h5 { 
     color: #504145;
+    margin-right: 15px;
 }
 h6 { 
     font-size: 15px;
