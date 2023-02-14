@@ -88,13 +88,15 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     background-color: #615054;
+    border-style: double;
 }
 
 .right_titles {
     color: whitesmoke;
-    padding:10px;
+    padding:15px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    text-align: center;
 }
 
 .subs {
@@ -103,6 +105,7 @@ body{
     letter-spacing: 2px;
     border-bottom: darkviolet;
     border-style: double;
+    margin: 8px;
 }
 
 dl {
@@ -121,6 +124,36 @@ dt, dd {
     border-bottom: 1px solid #504145;
 }
 
+ul {
+    list-style-type: circle;
+}
+
+h4, h5 {
+    margin-left: 10px;
+    height: 5px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 { 
+    color: #504145;
+}
+h6 { 
+    font-size: 15px;
+    margin-left: 10px;
+    height: 0;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.job_sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* ---------------- ASIDE ---------------- */
 
