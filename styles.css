@@ -106,7 +106,7 @@ body{
 }
 
 dl {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
 }
 
@@ -152,5 +152,8 @@ aside h3 {
 /* METER */ 
 
 meter {
-    display: flex;
+    display: block;
+    width: 80%;
+    height: 20px;
+    padding-top: 5px;
 }
