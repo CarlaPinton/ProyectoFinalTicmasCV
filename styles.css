@@ -32,7 +32,7 @@ body{
     justify-content: space-evenly;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 190px;
+    margin-left: 180px;
     height: 150px
 }
 
@@ -41,13 +41,14 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     padding:10px;
-    padding-top:30px
+    padding-top:30px;
+    margin-left: 60px;
 }
 #hero h2 {
     color: #8F797E;
     letter-spacing: 2px;
     padding: 5px;
-    padding-top:15px;
+    margin-left: 60px;
 }
 
 #fotoperfil {
@@ -77,6 +78,8 @@ body{
     background-color: #F2CED8;
     color: #3b3134 ;
     font-weight: bold ;
+    line-height: 2em;
+    padding: 8px;
 }
 
 .main_titles{
@@ -142,4 +145,12 @@ aside h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
     border-bottom: 1px solid rgb(255, 210, 216);
+}
+
+/* ICONS */ 
+
+/* METER */ 
+
+meter {
+    display: flex;
 }
