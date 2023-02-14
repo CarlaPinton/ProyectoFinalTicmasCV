@@ -157,3 +157,15 @@ meter {
     height: 20px;
     padding-top: 5px;
 }
+meter::-webkit-meter-optimum-value{
+    background: none;
+    background-color: darkmagenta;
+}
+meter::-webkit-meter-bar{
+    background: none;
+    background-color: whitesmoke;
+}
+meter::-moz-meter-optimum{
+    background: none;
+    background-color: darkmagenta;
+}
