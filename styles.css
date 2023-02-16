@@ -115,7 +115,7 @@ body{
 }
 
 dl {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -126,12 +126,22 @@ dt {
 dt, dd { 
     flex-basis: 50%;
     margin: 0;
-    line-height: 1.5em;
+    line-height: 24px;
     border-bottom: 1px solid #504145;
 }
 
-ul {
-    list-style-type: circle;
+dd { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+#explab li {
+    list-style: none;
+    padding-left: 2rem;
+	background-image: url(https://freesvg.org/img/Purple-Burst-Flower.png);
+	background-position: 0 50%;
+	background-size: 1.3rem 1.3rem;
+	background-repeat: no-repeat;
 }
 
 h4, h5 {
@@ -161,6 +171,15 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#contacto ul {
+    font-size: 17px;
+    line-height: 25px;    
+}
+
+#educ li {
+  font-size: 15px;
 }
 
 /* ---------------- ASIDE ---------------- */
@@ -196,8 +215,6 @@ aside ul {
     list-style-type: none;
 }
 
-/* ICONS */ 
-
 /* METER */ 
 
 meter {
@@ -217,4 +234,23 @@ meter::-webkit-meter-bar{
 meter::-moz-meter-optimum{
     background: none;
     background-color: darkmagenta;
+}
+
+.idiomas meter {
+    display: block;
+    width: 80%;
+    height: 20px;
+    padding-top: 5px;
+}
+.idiomas meter::-webkit-meter-optimum-value{
+    background: none;
+    background-color: turquoise;
+}
+.idiomas meter::-webkit-meter-bar{
+    background: none;
+    background-color: whitesmoke;
+}
+.idiomas meter::-moz-meter-optimum{
+    background: none;
+    background-color: turquoise;
 }
