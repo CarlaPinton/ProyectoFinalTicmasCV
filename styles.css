@@ -177,8 +177,13 @@ h6 {
 }
 
 #contacto ul {
-    font-size: 17px;
-    line-height: 25px;    
+    font-size: 20px;
+    line-height: 35px; 
+    padding: 36px; 
+    background-color: #F2CED8;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: #fffafc double;
 }
 
 #educ_list li {
