@@ -4,7 +4,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
-/*---------------LAYOUT--------------*/
+/* ---------------- LAYOUT ----------------*/
 
 .main_container {
     display: flex;
@@ -178,12 +178,12 @@ h6 {
 
 #contacto ul {
     font-size: 20px;
-    line-height: 35px; 
+    line-height: 30px; 
     padding: 40px 20px; 
-    background-color: #F2CED8;
     margin-left: 15px;
     margin-right: 15px;
-    border: #fffafc double;
+    border: #FFC2B5 dotted;
+    background-color: #6e779c;
 }
 
  a {
@@ -226,7 +226,7 @@ aside h4 {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     margin: 2px;
     height: 10px;
 }
@@ -236,7 +236,7 @@ aside ul {
     color: whitesmoke;
 }
 
-/* METER */ 
+/* ---------------- METER ---------------- */ 
 
 meter {
     display: block;
@@ -276,7 +276,7 @@ meter::-moz-meter-optimum{
     background-color: turquoise;
 }
 
-/* FORMSUBMIT.CO */
+/* ---------------- FORMSUBMIT.CO  ----------------*/
 
 .datos_form, .mensaj_form {
     display: flex;
@@ -291,10 +291,17 @@ meter::-moz-meter-optimum{
     width: 320px;
     height: 200px;
     color: #3b3134;
+    font-size: 17px;
 }
 
 .datos_form button {
     width: 250px;
     align-items: center;
-    color: darkmagenta;
+    color: #615054;
+    font-size: 20px;
+    margin-left: 35px;
+} 
+
+input {
+    font-size: 17px;
 }
