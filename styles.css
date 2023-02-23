@@ -324,6 +324,7 @@ input {
         font-size: 20px;
         line-height: 15px;
     }
+
     #contacto ul {
         font-size: 18px;
         padding: 40px 10px;
@@ -333,18 +334,9 @@ input {
        margin: unset;
     }
 }
+
 @media screen and (max-width:1155px){
 
-    #hero h1 {
-        padding: 5px;
-        margin-left: 60px;
-        font-size: 25px;
-        margin-bottom: auto;
-    }
-
-    #hero h2 {
-        font-size: 20px;
-    }
     aside h4 {
         height: 15px;
         line-height: 30px;
@@ -355,22 +347,15 @@ input {
     }
     
     h5 { 
-     font-size: 10px;
+        font-size: 10px;
     }
+
     #contacto ul {
         font-size: 17px;
     }
-
 }
 
 @media screen and (max-width:1127px){
-    #hero h1 {
-        padding: 5px;
-        margin-left: 60px;
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: auto;
-    }
 
     #hero h2 {
         font-size: 15px;
@@ -380,6 +365,7 @@ input {
     #contacto { 
         height: 200px;
     }
+
     #contacto ul {
         font-size: 15px;
         padding: 30px 10px;
@@ -404,6 +390,7 @@ h6 {
 }
 
 @media screen and (max-width:945px){
+
     #hero h1 {
         padding: 5px;
         margin-left: 60px;
@@ -412,14 +399,10 @@ h6 {
         margin-bottom: auto;
     }
 
-    #hero h2 {
-        font-size: 15px;
-        line-height: 15px;
-    }
-
     #contacto ul {
         padding: 30px 5px;
     }
+
     .sobremi p {
         font-size: 15px;
     }
@@ -435,6 +418,7 @@ h6 {
     .subs {
         font-size: 18px;
     }
+
     .job_list li {
         font-size: 15px;
     }
@@ -455,11 +439,8 @@ h6 {
 @media screen and (max-width:910px){
 
     #hero h1 {
-        padding: 5px;
-        margin-left: 60px;
         font-size: 20px;
         line-height: 25px;
-        margin-bottom: auto;
     }
 
     #hero h2 {
@@ -472,44 +453,44 @@ h6 {
     }
 
     aside h4 {
-    height: 40px;
-    line-height: normal;
-    font-size: 15px;
+        height: 40px;
+        line-height: normal;
+        font-size: 15px;
     }
 
     aside ul {
         font-size: 14px;
     }
-    
+
     .sobremi p {
-    font-size: 10px;
+        font-size: 15px;
     }
 
     .main_titles{
-    font-size: 15px;
+        font-size: 15px;
     }
 
     .right_titles {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     .subs {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     .job_list li {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     h4 {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     h6 {
-    font-size: 13px;
+        font-size: 13px;
     }
-
-    #educ_list li {
+    
+    input {
         font-size: 13px;
     }
 }
@@ -517,11 +498,16 @@ h6 {
 @media screen and (max-width:890px){
 
     #contact ul {
-    font-size: 13px;
+        font-size: 13px;
+    }
+
+    input {
+        font-size: 11px;
     }
 }
 
 @media screen and (max-width:800px){
+
     .main_container {
         display: flex;
         width: 100%;
@@ -538,7 +524,7 @@ h6 {
     }
 
     aside #div_vacio {
-    display: none;
+        display: none;
     }
 
     #hero h1 {
@@ -559,33 +545,33 @@ h6 {
     }
 
    aside h4 {
-    height: 40px;
-    line-height: normal;
-    font-size: 25px;
+        height: 40px;
+        line-height: normal;
+        font-size: 25px;
     }
 
     .main_titles{
-    font-size: 25px;
+        font-size: 25px;
     }
 
     .right_titles {
-    font-size: 25px;
+        font-size: 25px;
     }
 
     .subs {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     .job_list li {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     h4 {
-    font-size: 15px;
+        font-size: 15px;
     }
 
     h6 {
-    font-size: 13px;
+        font-size: 13px;
     }
 
     #educ_list li {
@@ -593,12 +579,12 @@ h6 {
     }
 
     meter, .idiomas meter {
-    width: 90%;
+        width: 90%;
     }
 
     aside ul {
-    font-size: 20px;
-    letter-spacing: 4px;
+        font-size: 20px;
+        letter-spacing: 4px;
     }
 
     #contacto ul {
@@ -620,22 +606,10 @@ h6 {
     body {
         width: 100%;
     }
-    .main_container {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-    }
-
+   
     main {
         width: 100%;
         margin: 0px;
-    }
-    aside {
-        width: 97%;
-        margin: auto;
-    }
-    aside #div_vacio {
-    display: none;
     }
 
     #fotoperfil {
@@ -663,66 +637,52 @@ h6 {
         font-size: 15px;
         }   
     
-    #contacto ul {
-        padding: 30px 5px;
-    }
-
-   aside h4 {
-    height: 25px;
-    font-size: 22px;
+    aside h4 {
+        height: 25px;
+        font-size: 22px;
     }
     
     .main_titles{
-    font-size: 20px;
+        font-size: 20px;
     }
 
     .right_titles {
-    font-size: 20px;
-    }
-    .subs {
-    font-size: 15px;
-    }
-    .job_list li {
-    font-size: 15px;
-    }
-
-    h4 {
-    font-size: 15px;
+        font-size: 20px;
     }
 
     h6 {
-    font-size: 14px;
+        font-size: 14px;
     }
 
-    #educ_list li {
-        font-size: 15px;
-    }
     meter {
-    width: 90%;
+        width: 90%;
     }
+
     aside ul {
-    font-size: 15px;
-    letter-spacing: 4px;
+        font-size: 15px;
     }
 
     #contacto ul {
         padding: 30px 60px;
         font-size: 17px;
     }
-
-    input {
-        font-size: 20px;
-    }
-
-    .mensaj_form textarea {
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width:500px){
     #contacto ul {
-    padding: 50px 10px;
-    font-size: 14px;
+        padding: 50px 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    dd {
+        font-size: 12px;
+    }
+
+    h6 {
+        font-size: 12px;
     }
 }
 
